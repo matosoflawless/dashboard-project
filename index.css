@@ -1,0 +1,81 @@
+body {
+  display: flex;
+}
+.dashboard {
+  background-color: rgb(52, 131, 221);
+  height: 100vh;
+  padding-right: 15px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: fit-content;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.dashboard img {
+  filter: invert();
+  width: 35px;
+  padding-right: 8px;
+}
+.dashboard-logo {
+  height: auto;
+  display: flex;
+}
+.dashboard-logo img {
+  width: 40px;
+}
+
+.dashboard-column1 {
+  padding-top: 20px;
+}
+
+.dashboard-column2 {
+  padding-top: 50px;
+}
+#dashboard-menu {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.search-bar-menu {
+  display: flex;
+  width: fit-content;
+  
+}
+#magnify {
+  width: 40px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+#search-bar {
+  width: 70vh;
+  display: flex;
+  border-radius: 20px;
+  translate: 20px 33px;
+  padding-bottom: 10px;
+  background-color: rgb(241, 238, 238);
+  border-color: rgb(241, 238, 238);
+}
+
+#bell-logo {
+width: 40px;
+padding-left: 50px;
+padding-top: 25px;
+padding-left: 50px;
+
+
+}
+
+#lion {
+    width: 60px;
+    padding-left: 30px;
+    padding-top: 10px;
+    
+}
+
+
