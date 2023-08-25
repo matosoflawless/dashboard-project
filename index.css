@@ -46,6 +46,12 @@ body {
   width: fit-content;
   
 }
+
+.top-container-search {
+    display: flex;
+    
+}
+
 #magnify {
   width: 40px;
   padding-left: 30px;
@@ -60,13 +66,14 @@ body {
   padding-bottom: 10px;
   background-color: rgb(241, 238, 238);
   border-color: rgb(241, 238, 238);
+  
 }
 
 #bell-logo {
 width: 40px;
-padding-left: 50px;
+
 padding-top: 25px;
-padding-left: 50px;
+padding-left: 400px;
 
 
 }
@@ -78,4 +85,9 @@ padding-left: 50px;
     
 }
 
-
+#name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 50px;
+}
