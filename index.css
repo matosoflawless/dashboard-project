@@ -93,12 +93,14 @@ body {
 }
 
 #lion2 {
+
   width: 80px;
   padding-top: 40px;
   padding-left: 60px;
 }
 
 #greeting {
+ 
   font-weight: bold;
   padding-top: 30px;
   padding-left: 20px;
@@ -113,8 +115,8 @@ body {
 
 
 .top-container-buttons {
-  padding-top: 50px;
-  
+  padding-bottom: 20px;
+  margin-top: auto;
   height: auto;
   margin-left: auto;
 
@@ -220,4 +222,50 @@ body {
   white-space: nowrap;
 
 
+}
+
+#content-titles {
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.content-cards {
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: gray;
+ 
+  
+}
+
+#card-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#card-text {
+  font-size: 16px;
+}
+
+.cards-collumn1 {
+  height: 150px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.cards-collumn2 {
+  height: 150px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
 }
